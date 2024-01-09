@@ -1,0 +1,64 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+
+    background-color: rgb(243, 243, 137)
+}
+ul li{
+    display: inline;
+    list-style: none;
+    
+}
+.menusor{
+
+}
+.fejlec{
+    text-align: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid1 img{
+    height: 200px;
+    width: 280px;
+    padding: 10px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.grid2 img{
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+.primary{
+    background-color: rgba(168, 105, 105, 0.534);
+    justify-content: center;
+    width: 180px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 32px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition:ease-in-out
+
+}
+.secondary{
+    background-color:white;
+    justify-content: center;
+    width: 180px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 32px;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgba(168, 105, 105, 0.534);
+    transition:ease-in-out;
+    
+
+}
