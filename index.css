@@ -5,16 +5,24 @@ body{
 
     background-color: rgb(243, 243, 137)
 }
+ul{
+    float: left;
+    width: 100%;
+}
 ul li{
     display: inline;
-    list-style: none;
-    
+    list-style: none; 
+    margin-right: 80px; 
 }
-.menusor{
-
+ul li a{
+    text-decoration: none;
+    color: black;
 }
 .fejlec{
     text-align: center;
+}
+.cimke{
+    font-size: 2rem;
 }
 .grid1{
     display: grid;
@@ -38,7 +46,7 @@ ul li{
 .primary{
     background-color: rgba(168, 105, 105, 0.534);
     justify-content: center;
-    width: 180px;
+    width: 150px;
     padding: 1rem;
     text-align: center;
     border-radius: 32px;
@@ -46,19 +54,19 @@ ul li{
     text-decoration: none;
     color: white;
     transition:ease-in-out
-
+    
 }
 .secondary{
     background-color:white;
     justify-content: center;
-    width: 180px;
+    width: 150px;
     padding: 1rem;
     text-align: center;
     border-radius: 32px;
     font-size: 15px;
     text-decoration: none;
     color:rgba(168, 105, 105, 0.534);
-    transition:ease-in-out;
+    transition:ease-in-out; 
     
 
 }
